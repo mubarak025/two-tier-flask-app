@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent { label "prod"}
 
     stages {
         stage('Code Clone') {
